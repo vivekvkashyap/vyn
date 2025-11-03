@@ -22,13 +22,14 @@ class VynCLI:
     def print_banner(self):
         """Display welcome banner"""
         print("\n")
-        print("  ██    ██ ██    ██ ███    ██     Commands:")
-        print("  ██    ██  ██  ██  ████   ██       'exit' or 'quit' - End session")
-        print("  ██    ██   ████   ██ ██  ██       'clear' - Clear screen")
-        print("   ██  ██     ██    ██  ██ ██       Ctrl+C - Exit")
+        print("  ██    ██ ██    ██ ███    ██                                        Available Commands:")
+        print("  ██    ██  ██  ██  ████   ██                                         exit or quit - End session")
+        print("  ██    ██   ████   ██ ██  ██                                         clear - Clear screen")
+        print("   ██  ██     ██    ██  ██ ██                                         ctrl+c - Exit")
         print("    ████      ██    ██   ████ ")
-        print("\n  VYN - Coding Assistant")
-        print(f"  Working Directory: {self.current_dir}")
+        # print(f"  Working Directory: {self.current_dir}")
+        print()
+        print(" Working Directory: /home/")
         print()
 
 

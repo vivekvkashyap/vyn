@@ -36,7 +36,7 @@ vyn/
 ### Prerequisites
 
 - Python 3.7 or higher
-- OpenAI API key ([Get one here](https://platform.openai.com/api-keys))
+- OpenAI API key 
 
 ### Setup
 
@@ -52,21 +52,10 @@ vyn/
    ```bash
    export OPENAI_API_KEY='your-api-key-here'
    ```
-   
-   To make it permanent, add to your `~/.bashrc` or `~/.zshrc`:
-   ```bash
-   echo "export OPENAI_API_KEY='your-api-key-here'" >> ~/.bashrc
-   source ~/.bashrc
-   ```
 
 ## Usage
 
 ### Running VYN
-
-**Direct execution:**
-```bash
-python .../vyn/vyn_cli.py
-```
 
 **Create an alias (recommended):**
 Add this to your `~/.bashrc` or `~/.zshrc`:
@@ -82,6 +71,14 @@ source ~/.bashrc
 Now launch VYN from anywhere:
 ```bash
 vyn
+```
+
+**Warning**
+It takes a couple of seconds to load after you type the first command.
+
+**Direct execution:**
+```bash
+python .../vyn/vyn_cli.py
 ```
 
 ### CLI Commands
