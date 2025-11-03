@@ -27,9 +27,9 @@ class VynCLI:
         print("  ██    ██   ████   ██ ██  ██                                         clear - Clear screen")
         print("   ██  ██     ██    ██  ██ ██                                         ctrl+c - Exit")
         print("    ████      ██    ██   ████ ")
-        # print(f"  Working Directory: {self.current_dir}")
-        print()
-        print(" Working Directory: /home/")
+        print(f"  Working Directory: {self.current_dir}")
+        # print()
+        # print(" Working Directory: /home/")
         print()
 
 
